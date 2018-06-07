@@ -19,9 +19,9 @@
 text_color_theme: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 url: # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: # does not include hostname
-title: Someone's blog
+title: 李南芝 blog
 description: > # this means to ignore newlines until "Language & timezone"
-  Someone's Blog
+  李南芝  Blog
 
 
 ## => Language and Timezone
@@ -34,7 +34,7 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 ##############################
 author:
   name: Someone
-  email: someone@somemail.com # your Email address e.g. someone@site.com
+  email: linnazhi@thinker.vc # your Email address e.g. someone@site.com
   facebook: # your Facebook username
   twitter: # your Twitter username
   github: # your GitHub username
@@ -46,7 +46,7 @@ author:
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: someone/someone.github.io
+repository: linanzhi/linanzhi.github.io
 repository_tree: master
 
 
@@ -99,12 +99,12 @@ disqus:
 ## Gitalk
 # please refer to https://github.com/gitalk/gitalk for more info.
 gitalk:
-  clientID: # GitHub Application Client ID
-  clientSecret: # GitHub Application Client Secret
-  repository: # GitHub repo
-  owner: # GitHub repo owner
+  clientID: 44025980d09f0bc975b4 # GitHub Application Client ID
+  clientSecret: d30655f79edccbb62f98b13b2793dfb957eab6a2 # GitHub Application Client Secret
+  repository: linanzhi.github.io # GitHub repo
+  owner: linanzhi # GitHub repo owner
   admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-    # - your GitHub Id
+    - "linanzhi" # - your GitHub Id
 
 
 ## => Pageview
